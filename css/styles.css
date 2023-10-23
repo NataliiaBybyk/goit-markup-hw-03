@@ -1,0 +1,200 @@
+/* ===============================COMMON STYLES=========================*/
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+/* ===============================HEADER STYLES=========================*/
+
+.logotype {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--IRIS, #4d5ae5);
+}
+
+.studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.menu-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--OCEAN, #404bbf);
+}
+
+address {
+  font-style: normal;
+}
+
+.contact-list-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE, #434455);
+}
+
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: #404bbf;
+}
+
+/* ===============================HERO STYLES=========================*/
+
+.hero {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.main-title {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--WHITE, #fff);
+}
+
+.order-service-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--WHITE, #fff);
+  background: var(--IRIS, #4d5ae5);
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background: var(--OCEAN, #404bbf);
+}
+
+/* ===============================BENEFITS STYLES=========================*/
+
+.benefits-list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.benefits-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE, #434455);
+}
+
+/* ===============================OUR TEAM  STYLES=========================*/
+.team {
+  background: var(--CLOUD, #f4f4fd);
+}
+
+.team-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.team-list-item {
+  background-color: #ffffff;
+}
+
+.team-list-fullname {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.team-list-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE, #434455);
+}
+
+/* ===============================OUR  PORTFOLIO=========================*/
+
+.portfolio-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.portfolio-list-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE, #434455);
+}
+
+/* ===============================FOOTER STYLES=========================*/
+.page-footer {
+  background-color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.logotype {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--IRIS, #4d5ae5);
+}
+
+.studio-footer {
+  color: #f4f4fd;
+}
+
+.page-footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--CLOUD, #f4f4fd);
+}
