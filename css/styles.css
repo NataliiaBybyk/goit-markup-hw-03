@@ -1,5 +1,44 @@
 /* ===============================COMMON STYLES=========================*/
 
+/* Загальні стилі для всьго сайту */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* Розмір і відступи контейнерів */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: space-between;
+}
+/* Обнуюємо марджени заголовків,абзаців та списків*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* Змінюємо тип картинок для видалення непотрібного простору */
+img {
+  display: block;
+}
+
+/* Видалення крапок в списках */
 .list {
   list-style-type: none;
 }
@@ -8,17 +47,57 @@
   text-decoration: none;
 }
 
+/* Кнопка */
 button {
   cursor: pointer;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+/* Приховання заголовку */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 /* ===============================HEADER STYLES=========================*/
 
+.page-header {
+  display: flex;
+  height: 72px;
+  border-bottom: 1px solid #e7e9fe;
+}
+.page-container {
+  display: flex;
+}
+.page-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px;
+}
+
+/* Логотип */
 .logotype {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -27,6 +106,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--IRIS, #4d5ae5);
+  margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .studio {
@@ -40,6 +122,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -57,6 +141,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contact-list-link:hover,
@@ -68,6 +154,7 @@ address {
 
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 188px 0;
 }
 
 .main-title {
@@ -77,6 +164,8 @@ address {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--WHITE, #fff);
+  max-width: 496px;
+  margin: 0 auto 52px;
 }
 
 .order-service-btn {
@@ -86,6 +175,13 @@ address {
   letter-spacing: 0.04em;
   color: var(--WHITE, #fff);
   background: var(--IRIS, #4d5ae5);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .order-service-btn:hover,
@@ -94,6 +190,19 @@ address {
 }
 
 /* ===============================BENEFITS STYLES=========================*/
+.benefits {
+  padding-top: 102px;
+  padding-bottom: 120px;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+
+.benefits-list-item {
+  width: 264px;
+}
 
 .benefits-list-title {
   font-size: 20px;
@@ -101,6 +210,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
+  height: 32px;
 }
 
 .benefits-list-text {
@@ -113,6 +223,7 @@ address {
 /* ===============================OUR TEAM  STYLES=========================*/
 .team {
   background: var(--CLOUD, #f4f4fd);
+  padding: 120px 0;
 }
 
 .team-title {
@@ -123,10 +234,22 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--NAVY-BLUE, #2e2f42);
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100%-72px) / 4);
+}
+
+.team-wrapper {
+  padding: 32px 0;
 }
 
 .team-list-fullname {
@@ -136,6 +259,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
+  margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -147,6 +271,20 @@ address {
 }
 
 /* ===============================OUR  PORTFOLIO=========================*/
+.portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+.portfolio-wrapper {
+  border: 1px solid #e7e9fe;
+  border-top: none;
+  padding: 32px 16px;
+}
 
 .portfolio-title {
   text-align: center;
@@ -156,6 +294,11 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--NAVY-BLUE, #2e2f42);
+  margin-bottom: 72px;
+}
+
+.portfolio-list-item {
+  width: calc((100%-48) / 3);
 }
 
 .portfolio-list-name {
@@ -164,6 +307,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
+  margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -176,6 +320,7 @@ address {
 /* ===============================FOOTER STYLES=========================*/
 .page-footer {
   background-color: var(--NAVY-BLUE, #2e2f42);
+  padding: 100px 0;
 }
 
 .logotype {
@@ -186,6 +331,8 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--IRIS, #4d5ae5);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .studio-footer {
@@ -197,4 +344,5 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--CLOUD, #f4f4fd);
+  width: 264px;
 }
