@@ -210,6 +210,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
   height: 32px;
+  margin-bottom: 8px;
 }
 
 .benefits-list-text {
@@ -249,7 +250,6 @@ address {
 
 .team-wrapper {
   padding: 32px 0;
-  margin-bottom: 8px;
 }
 
 .team-list-fullname {
@@ -258,6 +258,7 @@ address {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: var(--NAVY-BLUE, #2e2f42);
 }
 
