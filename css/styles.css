@@ -71,7 +71,7 @@ button {
 .page-header {
   display: flex;
   height: 72px;
-  border-bottom: 1px solid #e7e9fe;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-container {
   display: flex;
@@ -191,8 +191,7 @@ address {
 
 /* ===============================BENEFITS STYLES=========================*/
 .benefits {
-  padding-top: 102px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .benefits-list {
@@ -281,7 +280,7 @@ address {
   gap: 48px 24px;
 }
 .portfolio-wrapper {
-  border: 1px solid #e7e9fe;
+  border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
 }
@@ -298,7 +297,7 @@ address {
 }
 
 .portfolio-list-item {
-  width: calc((100%-48) / 3);
+  width: calc((100%-48px) / 3);
 }
 
 .portfolio-list-name {
