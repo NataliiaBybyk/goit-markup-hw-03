@@ -107,8 +107,6 @@ button {
   text-transform: uppercase;
   color: var(--IRIS, #4d5ae5);
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .studio {
@@ -209,7 +207,6 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE, #2e2f42);
-  height: 32px;
   margin-bottom: 8px;
 }
 
@@ -323,14 +320,7 @@ address {
   padding: 100px 0;
 }
 
-.logotype {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--IRIS, #4d5ae5);
+.logotype-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
